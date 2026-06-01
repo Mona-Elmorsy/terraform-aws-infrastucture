@@ -1,0 +1,28 @@
+AWS Infrastructure with Terraform
+
+This project demonstrates the provisioning of a basic AWS infrastructure using Terraform and Infrastructure as Code (IaC) principles.
+
+The architecture includes a custom VPC with public and private subnets distributed across multiple Availability Zones. Internet connectivity is provided through an Internet Gateway for public resources and a NAT Gateway for resources hosted in private subnets.
+
+The project also provisions IAM roles and policies for secure access management, as well as an S3 bucket for cloud storage.
+
+Technologies Used
+
+- Terraform
+- AWS VPC
+- Public & Private Subnets
+- Internet Gateway
+- NAT Gateway
+- Route Tables
+- IAM Roles & Policies
+- Amazon S3
+
+Learning Outcomes
+
+Through this project, I gained hands-on experience with:
+
+- Infrastructure as Code (IaC)
+- AWS networking fundamentals
+- Secure access management using IAM
+- Terraform resource provisioning and dependency management
+- Designing basic cloud network architectures
