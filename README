@@ -1,5 +1,7 @@
 AWS Infrastructure with Terraform
-
+<p align="center">
+  <img src="terraform-pr.jpeg" alt="Architecture Diagram" width="800">
+</p>
 This project demonstrates the provisioning of a basic AWS infrastructure using Terraform and Infrastructure as Code (IaC) principles.
 
 The architecture includes a custom VPC with public and private subnets distributed across multiple Availability Zones. Internet connectivity is provided through an Internet Gateway for public resources and a NAT Gateway for resources hosted in private subnets.
